@@ -1,0 +1,1166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246,250,255);
+    font-family:  'Open Sans', 'Helvetica Neue', 'sans-serif';
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    background-color:  rgb(29,149,238);
+    height: 100vh;
+    width: 60px;
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    border: rgb(29,149,238);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    
+}
+
+
+#lines{
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 14px;
+
+}
+
+#logo{
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 7px;
+    font-size: 35px;
+}
+
+#logo2{
+    margin-top: 95px;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+#logo3{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+#logo4{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#logo5{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+#sign-out{
+    margin-top: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+#overview{
+    position: fixed;
+    margin-top: 35px;
+    margin-left: 110px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#team{
+    position: fixed;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 320px;
+    
+}
+
+#search{
+    position: fixed;
+    font-size: 16px;
+    margin-left: 530px;
+    margin-top: 60px;
+}
+
+#search-text{
+    position: fixed;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 550px;
+    margin-top: 60px;
+}
+
+#noto{
+    position: fixed;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 1200px;
+    margin-top: 60px;
+}
+
+#bell{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 1150px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+#comment{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 1200px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+#profile{
+    position: fixed;
+    display: inline-block;
+    height: 700px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: black;
+}
+#profile-picture{
+    position: fixed;
+    margin-left: 260px;
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+#name{
+    position: fixed;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#email{
+    position: fixed;
+    font-size: 20px;
+    color: gray;
+    margin-top: 55px;
+    margin-left:25px
+
+}
+#experance{
+    position: fixed;
+    font-size: 16px;
+    color: gray;
+    margin-left: 25px;
+    margin-top: 135px;
+}
+
+#salary{
+    position: fixed;
+    font-size: 16px;
+    color: gray;
+    margin-left: 125px;
+    margin-top: 135px;
+}
+
+#project-process{
+    position: fixed;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 520px;
+    width: 200px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#wrench{
+    position: fixed;
+    font-size: 16px;
+    background-color: rgb(255,93,109);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+ #percent{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 75px;
+    font-size: 40px;
+    font-weight: 800;
+}
+#project-process-text{
+    position: fixed;
+    font-size: 18px;
+    color: gray;
+    margin-top:10px;
+    margin-left: 40px;
+}
+#progress-bar-1{
+    position: fixed;
+    background-color: rgb(45, 132, 214);
+    width: 150px;
+    height: 10px;
+    margin-top: 120px;
+    margin-left: 15px;
+    border:  1px solid white;
+    border-radius: 25px
+
+}
+
+#progress-bar-2{
+    position: fixed;
+    background-color: rgb(45, 132, 214);
+    width: 150px;
+    height: 10px;
+    margin-top: 120px;
+    margin-left: 15px;
+    border:  1px solid white;
+    border-radius: 25px;
+}
+#progress-bar-22{
+    position: fixed;
+    background-color: white;
+    width: 110px;
+    height: 10px;
+    margin-top: 100px;
+    border:  1px solid white;
+    border-radius: 25px;
+   
+}
+
+#project-process2{
+    position: fixed;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 730px;
+    width: 200px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 25px; 
+}
+#clock{
+    position: fixed;
+    font-size: 16px;
+    background-color: rgb(255,93,109);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 7px;
+
+}
+#Completion-rate{
+    position: fixed;
+    font-size: 18px;
+    color: gray;
+    margin-top:10px;
+    margin-left: 40px;
+
+}
+#percent1{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 65px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+#growth{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sliders{
+    position: fixed;
+    margin-left: 350px;
+    margin-top: 170px;
+}
+
+#graph-img{
+    position: fixed;
+    width: 300px;
+    height: 230px;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+#radar-chart-div{
+    position: fixed;
+    margin-top: 450px;
+}
+#radar-chart{
+    position: fixed;
+    margin-left: 25px;    
+    width: 300px;
+    height: 230px;
+}
+
+#bundle-studio{
+    position: fixed;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 940px;
+    width: 300px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
+
+
+.bundel-img{
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+#img-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-top: 124px;
+}
+
+#dots{
+    position: fixed;
+    color: gray;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 260px;
+}
+
+#jet{
+    position: fixed;
+    font-size: 30px;
+    background-color: rgb(68,102,225);
+    padding: 3px;
+    border: 1px solid rgb(68,102,225);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+#title-3{
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 55px;
+    width: fit-content;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+#subheader{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 55px;
+    color: gray;
+}
+
+#calander{
+    position: fixed;
+    width: 725px;
+    height: 510px;
+    margin-top: 290px;
+    margin-left: 520px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 45px;
+}
+
+#month{
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+#year{
+    position: fixed;
+    color: gray;
+    margin-left: 120px;
+    margin-top: 27px;
+    font-size: 16px;
+    
+}
+
+#show{
+    position: fixed;
+    margin-top: 25px;
+    color: gray;
+    font-size: 400;
+    margin-left: 430px
+}
+
+#week{
+    position: fixed;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 400;
+    margin-left: 475px
+
+}
+
+#arrow-left{
+    position: fixed;
+    margin-top: 10px;
+    font-size: 400;
+    margin-left: 675px
+
+}
+#arrow-right{
+    position: fixed;
+    margin-top: 10px;
+    font-size: 400;
+    margin-left: 640px
+}
+#dates{
+    position: fixed;
+    font-size: 25px;
+    font-weight: 700;
+    word-wrap: none;
+    word-spacing: 55px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+#weekdays{
+    position: fixed;
+    display: inline;
+    
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+    word-wrap: none;
+    word-spacing: 45px;
+    margin-top: 85px;
+    margin-left: 50px;
+
+}
+
+
+
+
+#week1{
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 25px;
+    background-color: rgb(241,246,255);
+    width: 675px;
+    height: 85px;
+    border: 1px solid rgb(241,246,255);
+    border-radius: 25px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#week2{
+    position: fixed;
+    margin-top: 210px;
+    margin-left: 40px;
+    background-color: rgb(255,93,109);
+    width: 466px;
+    height: 85px;
+    border: 1px solid rgb(255,93,109);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#week3{
+    position: fixed;
+    margin-top: 210px;
+    margin-left: 560px;
+    background-color: rgb(241,246,255);
+    width: 110px;
+    height: 85px;
+    border: 1px solid rgb(241,246,255);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#week4{
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 60px;
+    background-color: rgb(241,246,255);
+    width: 500px;
+    height: 70px;
+    border: 1px solid rgb(241,246,255);
+    border-radius: 25px;
+    padding: 10px;
+
+}
+#line-1{
+    position: fixed;
+    width: 725px;
+    height: 1px;
+    background-color: black;
+    margin-left: -10px;
+    margin-top: 200px;
+    
+}
+#line-2{
+    position: fixed;
+    width: 725px;
+    height: 1px;
+    background-color: black;
+    margin-left: -10px;
+    margin-top: 320px;
+    
+}
+#line-3{
+    transform: rotate(90deg);
+    position: fixed;
+    width: 1px;
+    height: 500px;
+    transform: rotate(180deg);
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 0px;  
+    
+}
+.side-bar{
+    color: gray;
+    font-size: 20px;
+}
+
+#side-bar1{
+    position: fixed;
+    margin-top: 140px;
+    transform: rotate(90deg);
+    margin-left: -30px;
+}
+#side-bar2{
+    position: fixed;
+    margin-top: 350px;
+    transform: rotate(90deg);
+    margin-left: -20px;
+}
+#side-bar3{
+    position: fixed;
+    margin-top: 250px;
+    transform: rotate(90deg);
+    margin-left: -40px;
+}
+
+@media  only screen and  (max-width : 375px) 
+    {
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            background-color: rgb(246,250,255);
+            font-family:  'Open Sans', 'Helvetica Neue', 'sans-serif';
+            width: 375px;
+            height: 100vh;
+            
+        }
+        
+        nav{
+            background-color:  rgb(29,149,238);
+            height: 10vh;
+            width: 100vw;
+            display: block;
+            position: relative;
+            
+            left: 0;
+            top: 0;
+            border: rgb(29,149,238);
+            border-radius: 5px;
+            padding: 5px;
+            color: rgb(56, 50, 50);
+            
+        }
+        
+        
+        #lines{
+            margin-left: 10px;
+            margin-top: 25px;
+            font-size: 14px;
+        
+        }
+        
+        #logo{
+            margin-top: -20px;
+            margin-right: 10px;
+            margin-left: 330px;
+            font-size: 35px;
+        }
+        
+        #logo2{
+            margin-top: -5px;
+            font-size: 20px;
+            margin-left: 10px;
+        
+        }
+        
+        #logo3{
+            margin-top: -200px;
+            font-size: 20px;
+            margin-left: 100px;
+        
+        }
+        
+        #logo4{
+            margin-top: 35px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        
+        #logo5{
+            margin-top: 35px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        
+        
+        #sign-out{
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 18px;
+            border: 1px solid white;
+        }
+        
+        #overview{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 5px;
+            font-size: 45px;
+            font-weight: 600;
+        }
+        
+        #team{
+            position: relative;
+            font-size: 15px;
+            margin-top: -30px;
+            margin-left: 220px;
+            
+        }
+        
+        #search{
+            position: relative;
+            font-size: 16px;
+            margin-left: 300px;
+            margin-top: -20px;
+        }
+        
+        #search-text{
+            position: relative;
+            font-size: 10px;
+            font-weight: 700;
+            margin-left: 330px;
+            margin-top: -15px;
+        }
+        
+        #noto{
+            position: relative;
+            font-size: 24px;
+            font-weight: 700;
+            margin-left: 12px;
+            margin-top: -10px;
+        }
+        
+        #bell{
+            position: relative;
+            margin-top: -25px;
+            margin-left: 15px;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 35px;
+        
+        }
+        
+        #comment{
+            position: relative;
+            margin-top: 40px;
+            
+            margin-left: 70px;
+            font-size: 24px;
+            font-weight: 700;
+        
+        }
+        
+        #profile{
+            position: relative;
+            display: inline-block;
+            height: 100vh;
+            width: 90vw;
+            margin-top: -20px;
+            margin-left: 20px;
+            margin-bottom: 25px;
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 25px;
+            color: black;
+        }
+        #profile-picture{
+            position: relative;
+            margin-left: 210px;
+            margin-top: -70px;
+            height: 100px;
+            width: 100px;
+            border: 1px solid white;
+            border-radius: 100px;
+        }
+        
+        #name{
+            position: relative;
+            font-weight: 600;
+            font-size: 24px;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+        
+        #email{
+            position: relative;
+            font-size: 20px;
+            color: gray;
+            margin-top: 15px;
+            margin-left:25px
+        
+        }
+        #experance{
+            position: relative;
+            font-size: 16px;
+            color: gray;
+            margin-left: 25px;
+            margin-top: -19px;
+        }
+        
+        #salary{
+            position: relative;
+            font-size: 16px;
+            color: gray;
+            margin-left: 125px;
+            margin-top: 35px;
+        }
+        
+        #project-process{
+            position: relative;
+            background-color: white;
+            margin-top: 10px;
+            margin-left: 20px;
+            width: 150px;
+            height: 175px;
+            border: 1px solid white;
+            border-radius: 25px;
+        }
+        #wrench{
+            position: relative;
+            font-size: 16px;
+            background-color: rgb(255,93,109);
+            padding: 3px;
+            border: 1px solid white;
+            border-radius: 25px;
+            margin-top: 10px;
+            margin-left: 7px;
+        }
+         #percent{
+            position: relative;
+            margin-left: 10px;
+            margin-top: 25px;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        #project-process-text{
+            position: relative;
+            font-size: 18px;
+            color: gray;
+            margin-top: -20px;
+            margin-left: 40px;
+        }
+        #progress-bar-1{
+            position:relative;
+            background-color: rgb(45, 132, 214);
+            width: 100px;
+            height: 10px;
+            margin-top: 10px;
+            margin-left: 15px;
+            border:  1px solid white;
+            border-radius: 25px
+        
+        }
+        
+        #progress-bar-2{
+            position: relative;
+            background-color: rgb(45, 132, 214);
+            width: 150px;
+            height: 1px;
+            margin-top: 5px;
+            margin-left: 0px;
+            border:  1px solid white;
+            border-radius: 25px;
+        }
+        #progress-bar-22{
+            position: relative;
+            background-color: rgb(131, 61, 61);
+            width: 65px;
+            height: 10px;
+            margin-top: 0px;
+            border:  1px solid white;
+            border-radius: 25px;
+           
+        }
+        
+        #project-process2{
+            position: relative;
+            background-color: white;
+            margin-top: -175px;
+            margin-left: 195px;
+            width: 150px;
+            height: 175px;
+            border: 1px solid white;
+            border-radius: 25px; 
+        }
+        #clock{
+            position: relative;
+            font-size: 16px;
+            background-color: rgb(255,93,109);
+            padding: 5px;
+            width: fit-content;
+            border: 1px solid white;
+            border-radius: 25px;
+            margin-top: 10px;
+            margin-left: 7px;
+        
+        }
+        #Completion-rate{
+            position: relative;
+            font-size: 18px;
+            color: gray;
+            margin-top: -35px;
+            margin-left: 45px;
+        
+        }
+        #percent1{
+            position: relative;
+            margin-left: 10px;
+            margin-top: 45px;
+            font-size: 35px;
+            font-weight: 800;
+        
+        }
+        #growth{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 15px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+        
+        #sliders{
+            position: relative;
+            margin-left: 290px;
+            margin-top: -20px;
+        }
+        
+        #graph-img{
+            position:relative;
+            width: 300px;
+            height: 230px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        #radar-chart-div{
+            position: relative;
+            margin-top: 50px;
+        }
+        #radar-chart{
+            position: relative;
+            margin-left: 25px;    
+            width: 300px;
+            height: 230px;
+        }
+        
+        #bundle-studio{
+            position: relative;
+            background-color: white;
+            margin-top: 10px;
+            margin-left: 15px;
+            width: 330px;
+            height: 175px;
+            border: 1px solid white;
+            border-radius: 25px;
+            overflow: hidden;
+            
+        }
+        
+        
+        .bundel-img{
+            position: relative;
+            height: 45px;
+            width: 45px;
+            border: 1px solid white;
+            border-radius: 100px;
+            margin-top: 75px;
+        }
+        
+        #img-flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: 10px;
+            margin-top: 4px;
+        }
+        
+        #dots{
+            position: relative;
+            color: gray;
+            font-size: 35px;
+            margin-top: -55px;
+            margin-left: 260px;
+        }
+        
+        #jet{
+            position: relative;
+            font-size: 30px;
+            width: fit-content;
+            background-color: rgb(68,102,225);
+            padding: 3px;
+            border: 1px solid rgb(68,102,225);
+            border-radius: 25px;
+            margin-top: 20px;
+            margin-left: 20px;
+        
+        }
+        #title-3{
+            position:relative;
+            margin-top: -45px;
+            margin-left: 55px;
+            font-size: 16px;
+            color: black;
+            font-weight: 600;
+        }
+        #subheader{
+            position: relative;
+            margin-top: 4px;
+            margin-left: 60px;
+            color: gray;
+        }
+        
+        #calander{
+            position: relative;
+            width: 345px;
+            height: 100vh;
+            margin-top: 15px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: white;
+            border: 1px white solid;
+            border-radius: 45px;
+        }
+        
+        #month{
+            position:relative;
+            margin-left: 7px;
+            margin-top: 5px;
+            font-size: 24px;
+            font-weight: 800;
+        
+        }
+        
+        #year{
+            position: relative;
+            color: gray;
+            margin-left: 70px;
+            margin-top: -20px;
+            font-size: 16px;
+            
+        }
+        
+        #show{
+            position: relative;
+            margin-top: -25px;
+            color: gray;
+            font-size: 400;
+            margin-left: 200px
+        }
+        
+        #week{
+            position: relative;
+            margin-top: -15px;
+            font-weight: 700;
+            font-size: 400;
+            margin-left: 255px
+        
+        }
+        
+        #arrow-left{
+            position: relative;
+            margin-top: 10px;
+            font-size: 400;
+            margin-left: 675px
+        
+        }
+        #arrow-right{
+            position: relative;
+            margin-top: 10px;
+            font-size: 400;
+            margin-left: 640px
+        }
+        #dates{
+            position: relative;
+            font-size: 25px;
+            font-weight: 700;
+            word-wrap: none;
+            word-spacing: 25px;
+            margin-top: 0px;
+            margin-left: 5px;
+        }
+        #weekdays{
+            position: relative;
+            display: flex;
+            font-size: 16px;
+            color: gray;
+            font-weight: 400;
+            word-wrap: none;
+            word-spacing: 10px;
+            margin-top: 5px;
+            margin-left: 5px;
+        
+        }
+        
+        
+        
+        
+        #week1{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 25px;
+            background-color: rgb(241,246,255);
+            width: 175px;
+            height: 85px;
+            border: 1px solid rgb(241,246,255);
+            border-radius: 25px;
+            padding: 10px;
+            overflow: hidden;
+        }
+        
+        #week2{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 25px;
+            background-color: rgb(255,93,109);
+            width: 266px;
+            height: 85px;
+            border: 1px solid rgb(255,93,109);
+            border-radius: 25px;
+            padding: 10px;
+        }
+        
+        #week3{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 60px;
+            background-color: rgb(241,246,255);
+            width: 110px;
+            height: 85px;
+            border: 1px solid rgb(241,246,255);
+            border-radius: 25px;
+            padding: 10px;
+        }
+        
+        #week4{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 26px;
+            background-color: rgb(241,246,255);
+            width: 300px;
+            height: 70px;
+            border: 1px solid rgb(241,246,255);
+            border-radius: 25px;
+            padding: 1px;
+        
+        }
+        #line-1{
+            position: relative;
+            width: 125px;
+            height: 1px;
+            background-color: black;
+            margin-left: 10px;
+            margin-top: 2px;
+            
+        }
+        #line-2{
+            position: relative;
+            width: 725px;
+            height: 1px;
+            background-color: black;
+            margin-left: -11px;
+            margin-top: -200px;
+            
+        }
+        #line-3{
+            transform: rotate(90deg);
+            position: relative;
+            /* width: 10px;
+            height: 500px; */
+            background-color: black;
+            margin-left: 10px;
+            margin-top: 300px;  
+        }
+        .side-bar{
+            color: gray;
+            font-size: 20px;
+        }
+        
+        #side-bar1{
+            position: relative;
+            margin-top: 10px;
+            transform: rotate(90deg);
+            margin-left: -300px;
+        }
+        #side-bar2{
+            position: 
+            relative;
+            margin-top: 120px;
+            transform: rotate(90deg);
+            margin-left: -300px;
+        }
+        #side-bar3{
+            position: relative;
+            margin-top: 50px;
+            transform: rotate(90deg);
+            margin-left: -300px;
+        }
+    }
